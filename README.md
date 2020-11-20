@@ -12,7 +12,7 @@
  * Get startted 
  * 输入 ganache 的 mnemonic
  * Custome RPC
- 		* RPC URL ：HTTP://127.0.0.1:7545；chain ID: 0x539
+ 		* RPC URL ：HTTP://127.0.0.1:7545 chain ID: 0x539
 * truffle migrate
 * 添加 index.html 中 CONTRACT_ADDRESS
 * http-server
