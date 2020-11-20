@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>CryptoZombies front-end</title>
     <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="web3.min.js"></script>
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
     <script language="javascript" type="text/javascript" src="cryptozombies_abi.js"></script>
   </head>
   <body>
@@ -29,7 +29,7 @@
           }
         }, 100);
 
-                cryptoZombies.events.Transfer({ filter: { _to: userAccount } })
+        cryptoZombies.events.Transfer({ filter: { _to: userAccount } })
         .on("data", function(event) {
           let data = event.returnValues;
           getZombiesByOwner(userAccount).then(displayZombies);

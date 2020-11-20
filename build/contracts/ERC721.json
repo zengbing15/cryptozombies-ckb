@@ -139,15 +139,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_approved\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_approved\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"ownerOf\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/zengbing/Documents/Developer-Tools/Atalk1014/CryptoZombies-ckb/contracts/erc721.sol\":\"ERC721\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/zengbing/Documents/Developer-Tools/Atalk1014/CryptoZombies-ckb/contracts/erc721.sol\":{\"keccak256\":\"0xe67a968a1b2b241d2e9409bacb5a64648303ab336e460f102b6e9aa0bfa82d32\",\"urls\":[\"bzz-raw://3ec65341a0e15fab112a8b80ad74d9bb7739c8d51cef4f241fdcbbe9cac9ffd5\",\"dweb:/ipfs/Qme1rjT2ffxQhG6YdspAGahmEdJ3twVr7cxxo3yrnVW1tA\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_approved\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_approved\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"ownerOf\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/zengbing/Documents/Developer-Tools/polyjuice-talk1104/demo/cryptozombies-ckb/contracts/erc721.sol\":\"ERC721\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/zengbing/Documents/Developer-Tools/polyjuice-talk1104/demo/cryptozombies-ckb/contracts/erc721.sol\":{\"keccak256\":\"0xe67a968a1b2b241d2e9409bacb5a64648303ab336e460f102b6e9aa0bfa82d32\",\"urls\":[\"bzz-raw://3ec65341a0e15fab112a8b80ad74d9bb7739c8d51cef4f241fdcbbe9cac9ffd5\",\"dweb:/ipfs/Qme1rjT2ffxQhG6YdspAGahmEdJ3twVr7cxxo3yrnVW1tA\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity >=0.5.0 <0.6.0;\n\ncontract ERC721 {\n  event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);\n  event Approval(address indexed _owner, address indexed _approved, uint256 indexed _tokenId);\n\n  function balanceOf(address _owner) external view returns (uint256);\n  function ownerOf(uint256 _tokenId) external view returns (address);\n  function transferFrom(address _from, address _to, uint256 _tokenId) external payable;\n  function approve(address _approved, uint256 _tokenId) external payable;\n}",
-  "sourcePath": "/Users/zengbing/Documents/Developer-Tools/Atalk1014/CryptoZombies-ckb/contracts/erc721.sol",
+  "sourcePath": "/Users/zengbing/Documents/Developer-Tools/polyjuice-talk1104/demo/cryptozombies-ckb/contracts/erc721.sol",
   "ast": {
-    "absolutePath": "/Users/zengbing/Documents/Developer-Tools/Atalk1014/CryptoZombies-ckb/contracts/erc721.sol",
+    "absolutePath": "/Users/zengbing/Documents/Developer-Tools/polyjuice-talk1104/demo/cryptozombies-ckb/contracts/erc721.sol",
     "exportedSymbols": {
       "ERC721": [
         87
@@ -740,7 +740,7 @@
     "src": "0:538:2"
   },
   "legacyAST": {
-    "absolutePath": "/Users/zengbing/Documents/Developer-Tools/Atalk1014/CryptoZombies-ckb/contracts/erc721.sol",
+    "absolutePath": "/Users/zengbing/Documents/Developer-Tools/polyjuice-talk1104/demo/cryptozombies-ckb/contracts/erc721.sol",
     "exportedSymbols": {
       "ERC721": [
         87
@@ -1337,8 +1337,8 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.2.5",
-  "updatedAt": "2020-09-23T03:50:17.485Z",
+  "schemaVersion": "3.3.1",
+  "updatedAt": "2020-11-14T08:13:33.325Z",
   "devdoc": {
     "methods": {}
   },
