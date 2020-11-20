@@ -12,11 +12,11 @@
  * Get startted 
  * 输入 ganache 的 mnemonic
  * Custome RPC
- 		* RPC URL ：HTTP://127.0.0.1:7545 chain ID: 0x539
+ 		* RPC URL: HTTP://127.0.0.1:7545 chain ID: 0x539
 * truffle migrate
 * 添加 index.html 中 CONTRACT_ADDRESS
 * http-server
-* 访问 http://127.0.0.1:8080 ，在控制台输入：
+* 访问 http://127.0.0.1:8080 , 在控制台输入：
 	* Create zombies: createRandomZombie("SOME NAME")
 * Tips:
     * Uncaught (in promise) Error: No "from" address specified in neither the given options, nor the default options.
@@ -25,6 +25,6 @@
     at createRandomZombie ((index):67)
     at <anonymous>:1:1
         * metamask 问题：https://stackoverflow.com/questions/56383938/no-valid-from-address-specified-in-neither-the-given-options-nor-the-default
-        * 修改 index.html 中的代码：web3js = new Web3(web3.currentProvider.**enable()**); metamask 弹出后，再删除
+        * 修改 index.html 中的代码：web3js = new Web3(web3.currentProvider.**enable()**), metamask 弹出后，再删除
 
 
